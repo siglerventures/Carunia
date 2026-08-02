@@ -5,7 +5,7 @@ Save the four photos into this folder with these exact filenames
 
 | Filename            | Photo                                                                |
 |---------------------|----------------------------------------------------------------------|
-| `ChildrensHome.png` | Courtyard shot of the home (used for the hero banner)  |
-| `food.png`          | Dining room — caretaker serving meals under the "We Welcome You" sign |
-| `play.png`          | Children playing a circle game in the courtyard                      |
-| `School.png`        | Classroom — students at desks under "Let your light shine"           |
+| `ChildrensHome.jpg` | Courtyard shot of the home (used for the hero banner)  |
+| `food.jpg`          | Dining room — caretaker serving meals under the "We Welcome You" sign |
+| `play.jpg`          | Children playing a circle game in the courtyard                      |
+| `School.jpg`        | Classroom — students at desks under "Let your light shine"           |
