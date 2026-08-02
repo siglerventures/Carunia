@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="app-rev" content="1.7">
+<meta name="app-rev" content="1.8">
 <script>
 // ===== Cache-bust bootstrap — rev comes from meta[app-rev] (single source of truth) =====
 // Forces a one-time ?v={rev} reload whenever the served rev doesn't match
@@ -42,8 +42,8 @@ document.addEventListener('DOMContentLoaded', function(){
 
 <!-- ===== Primary SEO ===== -->
 <title>Carunia Children's Home | Visakhapatnam, India — Restoring Hope, Building Futures</title>
-<meta name="description" content="Carunia Children's Home in Visakhapatnam, India has provided orphaned and at-risk children with a loving home, nutritious meals, education, and Christ-centered care since 2005. A mission of The Living Church, Boise, Idaho — Pastor Joel Sikha.">
-<meta name="keywords" content="Carunia Children's Home, children's home India, Visakhapatnam orphanage, sponsor a child India, Christian missions India, The Living Church Boise, Pastor Joel Sikha, nonprofit children's home, orphan care India, give Living Church Boise">
+<meta name="description" content="Carunia Children's Home in Visakhapatnam, India has provided orphaned and at-risk children with a loving home, nutritious meals, education, and Christ-centered care since 2005. Also supporting Caruniyam Girls' Home in Bangalore — 40 girls led by Pastor Paul. A mission of The Living Church, Boise, Idaho — Pastor Joel Sikha.">
+<meta name="keywords" content="Carunia Children's Home, children's home India, Visakhapatnam orphanage, sponsor a child India, Christian missions India, The Living Church Boise, Pastor Joel Sikha, nonprofit children's home, orphan care India, give Living Church Boise, Caruniyam Children's Home, Caruniyam Girls Home Bangalore, girls orphanage Bangalore, Pastor Paul Bangalore">
 <meta name="author" content="The Living Church, Boise, Idaho">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://siglerventures.github.io/Carunia/">
@@ -113,6 +113,38 @@ document.addEventListener('DOMContentLoaded', function(){
     "target": "https://www.livingchurchboise.com/give"
   },
   "sameAs": ["https://www.livingchurchboise.com/"],
+  "nonprofitStatus": "Nonprofit"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NGO",
+  "name": "Caruniyam Children's Home",
+  "alternateName": "Caruniyam Girls' Home",
+  "url": "https://siglerventures.github.io/Carunia/#caruniyam",
+  "image": "https://siglerventures.github.io/Carunia/images/schoolbus.jpg",
+  "description": "Caruniyam Children's Home in Bangalore, India, led by Pastor Paul, is home to 40 girls — many orphaned — providing food, clothing, safe housing, and schooling. Supported through The Living Church, Boise, Idaho.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bangalore",
+    "addressRegion": "Karnataka",
+    "addressCountry": "IN"
+  },
+  "employee": {
+    "@type": "Person",
+    "name": "Paul",
+    "jobTitle": "Pastor"
+  },
+  "parentOrganization": {
+    "@type": "Church",
+    "name": "The Living Church",
+    "url": "https://www.livingchurchboise.com/"
+  },
+  "potentialAction": {
+    "@type": "DonateAction",
+    "target": "https://www.livingchurchboise.com/give"
+  },
   "nonprofitStatus": "Nonprofit"
 }
 </script>
@@ -199,6 +231,7 @@ footer .fine{border-top:1px solid rgba(255,255,255,.18);padding-top:1.2rem;displ
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#programs">Our Work</a></li>
+        <li><a href="#caruniyam">Caruniyam Girls' Home</a></li>
         <li><a href="#church">Our Church</a></li>
         <li><a href="#involved">Get Involved</a></li>
         <li><a href="https://www.livingchurchboise.com/give" target="_blank" rel="noopener" class="btn">Donate</a></li>
@@ -293,6 +326,31 @@ footer .fine{border-top:1px solid rgba(255,255,255,.18);padding-top:1.2rem;displ
     </div>
   </section>
 
+  <!-- CARUNIYAM GIRLS' HOME -->
+  <section id="caruniyam" style="background:var(--white)">
+    <div class="wrap two-col">
+      <div>
+        <span class="kicker">Bangalore, India</span>
+        <h2>Caruniyam Girls' Home</h2>
+        <p class="lede">Caruniyam Children's Home in Bangalore is home to <strong>40 girls</strong> —
+        many of them orphaned, with no families to return to. It is led by <strong>Pastor Paul</strong>,
+        a faithful ministry partner who has walked with Pastor Joel Sikha for many years, and together
+        they have witnessed God's care for every girl who calls Caruniyam home.</p>
+        <p style="margin-top:1rem">We are raising funds to meet the girls' most urgent needs:
+        daily essentials such as food, toiletries, and clothing, plus school fees, uniforms, and
+        learning supplies for the coming term. Your generosity makes a tangible, immediate
+        difference — keeping these girls safe, nourished, and in school. No gift is too small.</p>
+        <p style="margin-top:1rem"><strong>To give:</strong> select
+        <em>&ldquo;Missions &ndash; Caruniyam Children's Home&rdquo;</em> in the drop-down on the
+        giving page, or note &ldquo;Caruniyam&rdquo; on your gift.</p>
+        <p style="margin-top:1.5rem">
+          <a class="btn" href="https://www.livingchurchboise.com/give" target="_blank" rel="noopener">Give to Caruniyam</a>
+        </p>
+      </div>
+      <img src="images/schoolbus.jpg" alt="The girls of Caruniyam Children's Home in Bangalore holding Indian flags in front of their yellow Caruniyam school bus" loading="lazy" width="1200" height="900">
+    </div>
+  </section>
+
   <!-- CHURCH -->
   <section id="church">
     <div class="wrap two-col">
@@ -367,6 +425,8 @@ footer .fine{border-top:1px solid rgba(255,255,255,.18);padding-top:1.2rem;displ
       <div>
         <h3>Carunia Children's Home</h3>
         <p>Visakhapatnam, Andhra Pradesh, India<br>Established 2005</p>
+        <h3 style="margin-top:1rem">Caruniyam Girls' Home</h3>
+        <p>Bangalore, Karnataka, India<br>Led by Pastor Paul · 40 girls</p>
       </div>
       <div>
         <h3>The Living Church</h3>
@@ -379,6 +439,7 @@ footer .fine{border-top:1px solid rgba(255,255,255,.18);padding-top:1.2rem;displ
       <div>
         <h3>Quick Links</h3>
         <p><a href="#about">About</a> · <a href="#programs">Our Work</a> ·
+        <a href="#caruniyam">Caruniyam</a> ·
         <a href="#involved">Get Involved</a> · <a href="#contact">Contact</a> ·
         <a href="https://www.livingchurchboise.com/give" target="_blank" rel="noopener">Give</a></p>
       </div>
