@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="app-rev" content="1.3">
+<meta name="app-rev" content="1.4">
 <script>
 // ===== Cache-bust bootstrap — rev comes from meta[app-rev] (single source of truth) =====
 // Forces a one-time ?v={rev} reload whenever the served rev doesn't match
@@ -42,8 +42,8 @@ document.addEventListener('DOMContentLoaded', function(){
 
 <!-- ===== Primary SEO ===== -->
 <title>Carunia Children's Home | Visakhapatnam, India — Restoring Hope, Building Futures</title>
-<meta name="description" content="Carunia Children's Home in Visakhapatnam, India has provided orphaned and at-risk children with a loving home, nutritious meals, education, and Christ-centered care since 2005. A mission of The Living Church, Boise, Idaho.">
-<meta name="keywords" content="Carunia Children's Home, children's home India, Visakhapatnam orphanage, sponsor a child India, Christian missions India, The Living Church Boise, nonprofit children's home, orphan care India">
+<meta name="description" content="Carunia Children's Home in Visakhapatnam, India has provided orphaned and at-risk children with a loving home, nutritious meals, education, and Christ-centered care since 2005. A mission of The Living Church, Boise, Idaho — Pastor Joel Sikha.">
+<meta name="keywords" content="Carunia Children's Home, children's home India, Visakhapatnam orphanage, sponsor a child India, Christian missions India, The Living Church Boise, Pastor Joel Sikha, nonprofit children's home, orphan care India, give Living Church Boise">
 <meta name="author" content="The Living Church, Boise, Idaho">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://siglerventures.github.io/Carunia/">
@@ -88,16 +88,31 @@ document.addEventListener('DOMContentLoaded', function(){
     "addressRegion": "Andhra Pradesh",
     "addressCountry": "IN"
   },
+  "email": "thelivingchurchboise@gmail.com",
   "parentOrganization": {
     "@type": "Church",
     "name": "The Living Church",
+    "url": "https://www.livingchurchboise.com/",
+    "email": "thelivingchurchboise@gmail.com",
     "address": {
       "@type": "PostalAddress",
+      "streetAddress": "2590 Bogus Basin Rd",
       "addressLocality": "Boise",
       "addressRegion": "ID",
+      "postalCode": "83702",
       "addressCountry": "US"
+    },
+    "employee": {
+      "@type": "Person",
+      "name": "Joel Sikha",
+      "jobTitle": "Pastor"
     }
   },
+  "potentialAction": {
+    "@type": "DonateAction",
+    "target": "https://www.livingchurchboise.com/give"
+  },
+  "sameAs": ["https://www.livingchurchboise.com/"],
   "nonprofitStatus": "Nonprofit"
 }
 </script>
@@ -187,7 +202,7 @@ footer .fine{border-top:1px solid rgba(255,255,255,.18);padding-top:1.2rem;displ
         <li><a href="#programs">Our Work</a></li>
         <li><a href="#church">Our Church</a></li>
         <li><a href="#involved">Get Involved</a></li>
-        <li><a href="#contact" class="btn">Donate</a></li>
+        <li><a href="https://www.livingchurchboise.com/give" target="_blank" rel="noopener" class="btn">Donate</a></li>
       </ul>
     </nav>
   </div>
@@ -289,7 +304,8 @@ footer .fine{border-top:1px solid rgba(255,255,255,.18);padding-top:1.2rem;displ
         <span class="kicker">Our Sending Church</span>
         <h2>A mission of The Living Church, Boise, Idaho</h2>
         <p class="lede">Carunia Children's Home is a nonprofit mission supported through
-        <strong>The Living Church</strong> in Boise, Idaho. Across two continents, one church family
+        <strong><a href="https://www.livingchurchboise.com/" target="_blank" rel="noopener">The Living Church</a></strong>
+        in Boise, Idaho, led by <strong>Pastor Joel Sikha</strong>. Across two continents, one church family
         prays for, gives to, and visits the children of Carunia — a living partnership between
         Boise and Visakhapatnam.</p>
         <p style="margin-top:1rem">Every dollar given goes directly to the care of the children:
@@ -308,13 +324,13 @@ footer .fine{border-top:1px solid rgba(255,255,255,.18);padding-top:1.2rem;displ
           <h3>🤝 Sponsor a Child</h3>
           <p>Monthly sponsorship provides a child's meals, schooling, and care — and a friendship
           that spans the globe.</p>
-          <a class="btn" href="#contact">Become a Sponsor</a>
+          <a class="btn" href="https://www.livingchurchboise.com/give" target="_blank" rel="noopener">Become a Sponsor</a>
         </div></article>
         <article class="card"><div class="pad">
           <h3>💛 Give a Gift</h3>
           <p>One-time gifts fund needs like school supplies, medical checkups, building repairs,
           and celebrations for the children.</p>
-          <a class="btn" href="#contact">Donate</a>
+          <a class="btn" href="https://www.livingchurchboise.com/give" target="_blank" rel="noopener">Donate</a>
         </div></article>
         <article class="card"><div class="pad">
           <h3>🙏 Pray &amp; Visit</h3>
@@ -332,8 +348,17 @@ footer .fine{border-top:1px solid rgba(255,255,255,.18);padding-top:1.2rem;displ
       <span class="kicker">Contact</span>
       <h2>Reach out to us</h2>
       <p class="lede" style="margin:0 auto">To sponsor a child, give, or learn more about
-      Carunia Children's Home, contact The Living Church in Boise, Idaho.</p>
-      <p style="margin-top:1.5rem"><a class="btn blue" href="mailto:info@thelivingchurchboise.org">Email The Living Church</a></p>
+      Carunia Children's Home, contact <a href="https://www.livingchurchboise.com/" target="_blank" rel="noopener">The Living Church</a>
+      in Boise, Idaho — Pastor Joel Sikha.</p>
+      <p style="margin-top:1.5rem;line-height:2">
+        <strong>Email:</strong> <a href="mailto:thelivingchurchboise@gmail.com">thelivingchurchboise@gmail.com</a><br>
+        <strong>Visit:</strong> 2590 Bogus Basin Rd, Boise, ID 83702<br>
+        <strong>Mail:</strong> The Living Church Boise, PO Box 2014, Eagle, ID 83616
+      </p>
+      <p style="margin-top:1.5rem">
+        <a class="btn" href="https://www.livingchurchboise.com/give" target="_blank" rel="noopener">Give Online</a>
+        <a class="btn blue" href="mailto:thelivingchurchboise@gmail.com">Email Us</a>
+      </p>
     </div>
   </section>
 
@@ -348,12 +373,17 @@ footer .fine{border-top:1px solid rgba(255,255,255,.18);padding-top:1.2rem;displ
       </div>
       <div>
         <h3>The Living Church</h3>
-        <p>Boise, Idaho, USA<br>Sending &amp; supporting church</p>
+        <p>Pastor Joel Sikha<br>
+        2590 Bogus Basin Rd, Boise, ID 83702<br>
+        PO Box 2014, Eagle, ID 83616<br>
+        <a href="https://www.livingchurchboise.com/" target="_blank" rel="noopener">livingchurchboise.com</a><br>
+        <a href="mailto:thelivingchurchboise@gmail.com">thelivingchurchboise@gmail.com</a></p>
       </div>
       <div>
         <h3>Quick Links</h3>
         <p><a href="#about">About</a> · <a href="#programs">Our Work</a> ·
-        <a href="#involved">Get Involved</a> · <a href="#contact">Contact</a></p>
+        <a href="#involved">Get Involved</a> · <a href="#contact">Contact</a> ·
+        <a href="https://www.livingchurchboise.com/give" target="_blank" rel="noopener">Give</a></p>
       </div>
     </div>
     <div class="fine">
