@@ -143,15 +143,14 @@ nav a:hover{color:var(--blue)}
 
 /* Hero */
 .hero{position:relative;min-height:78vh;display:flex;align-items:center;color:#fff;
-  background:linear-gradient(100deg,rgba(18,58,117,.72) 0%,rgba(18,58,117,.25) 60%,rgba(0,0,0,.15) 100%),url('images/ChildrensHome.jpg') center/cover no-repeat,var(--blue-dark)}
-.hero .wrap{padding:5rem 1.25rem}
-.hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.8rem);max-width:14ch}
-.hero .rule{width:64px;height:4px;background:var(--gold);margin:1.2rem 0}
-.hero p{font-size:clamp(1.05rem,2.2vw,1.35rem);max-width:34ch;font-weight:300}
-.hero .cta{margin-top:2rem;display:flex;gap:1rem;flex-wrap:wrap}
+  background:linear-gradient(180deg,rgba(0,0,0,0) 65%,rgba(18,58,117,.45) 100%),url('images/ChildrensHome.jpg') center/cover no-repeat,var(--blue-dark)}
+.hero{align-items:flex-end}
+.hero .wrap{padding:3rem 1.25rem;width:100%}
+.hero h1{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.hero .cta{display:flex;gap:1rem;flex-wrap:wrap}
 
 /* Sections */
-section{padding:4.5rem 0}
+section{padding:4.5rem 0;scroll-margin-top:72px}
 .kicker{letter-spacing:.18em;text-transform:uppercase;font-size:.8rem;font-weight:700;color:var(--gold)}
 h2{font-size:clamp(1.7rem,3.5vw,2.4rem);margin:.35rem 0 1.2rem}
 .lede{font-size:1.12rem;max-width:65ch}
@@ -214,8 +213,6 @@ footer .fine{border-top:1px solid rgba(255,255,255,.18);padding-top:1.2rem;displ
   <section class="hero" aria-label="Welcome">
     <div class="wrap">
       <h1>Carunia, India Children's Home</h1>
-      <div class="rule" aria-hidden="true"></div>
-      <p>Restoring hope. Building futures. Transforming lives through love and care.</p>
       <div class="cta">
         <a class="btn" href="#involved">Sponsor a Child</a>
         <a class="btn blue" href="#about">Our Story</a>
@@ -237,7 +234,7 @@ footer .fine{border-top:1px solid rgba(255,255,255,.18);padding-top:1.2rem;displ
         in action. Every child who walks through our gates is welcomed with the words painted on our
         wall: <strong>prem, asha, vishwas</strong> — love, hope, faith.</p>
       </div>
-      <img src="images/food.jpg" alt="A caretaker in a sari serves rice and curry to smiling boys at the dining table beneath a hand-painted 'We Welcome You' sign" loading="lazy" width="1200" height="900">
+      <img src="images/food.jpg" alt="A caretaker in a sari serves rice and curry to smiling boys at the dining table beneath a hand-painted 'We Welcome You' sign" width="1200" height="900">
     </div>
   </section>
 
